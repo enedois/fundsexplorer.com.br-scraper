@@ -6,7 +6,8 @@ import datetime
 
 
 ##carrega os papeis de stocksList.csv
-stocksList = open('FIIsList.csv', 'r')
+##stocksList = open('meusFiis.csv', 'r')
+stocksList = open('AllFiis.csv', 'r')
 papeis = stocksList.read().split(';')
 stocksList.close()
 
